@@ -1,0 +1,146 @@
+/* Umumiy konteyner */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: rgb(34, 34, 34); /* RGB dark rang */
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    padding: 20px;
+    border-radius: 7px;
+    ;
+  }
+  
+  .header h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .navList {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+  }
+  
+  .navButton {
+    color: #ffffff; /* Yashil rangli button */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #d15817;
+  }
+  
+  .navButton:hover {
+    background-color: #16a085; /* Yashil rangli hover effekt */
+  }
+  
+  /* About Section */
+  .aboutSection {
+    background-color: #859373;
+    padding: 80px;
+    border-radius: 10px;
+  }
+  
+  .aboutText {
+    text-align: center;
+  }
+  
+  .aboutText h2 {
+    margin-bottom: 20px;
+  }
+  
+  .aboutText p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Projects Section */
+  
+  /* Interests & Goals Section */
+  .interestsSection {
+    background-color: #d0b6b6;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .interestsSection h2 {
+    margin-bottom: 20px;
+  }
+  
+  .interestsSection p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #b5acac;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 7px;
+  }
+  
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .socialLinks a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .projects {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .project {
+      width: 80%;
+      margin: 10px 0;
+    }
+  
+    .aboutText h2, .projectsSection h2 {
+      font-size: 1.5rem;
+    }
+  
+    .aboutText p, .projectsSection p {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .aboutText p, .projectsSection p {
+      font-size: 0.9rem;
+    }
+  
+    .project {
+      width: 100%;
+    }
+  
+    .footer p {
+      font-size: 1rem;
+    }
+  }
+  

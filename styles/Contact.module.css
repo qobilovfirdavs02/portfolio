@@ -1,0 +1,142 @@
+/* Umumiy konteyner */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    min-height: 100vh;
+    background-color: rgb(24, 46, 96); /* RGB dark rang */
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #49502c;
+    padding: 20px;
+    border-radius: 7px;
+  }
+  
+  .header h1 {
+    color: #fff;
+    margin: 0;
+  }
+  
+  .navList {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+  }
+  
+  .navButton {
+    color: #f3f7f5; /* Yashil rangli button */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #1abc9c;
+  }
+  
+  .navButton:hover {
+    background-color: #ea8639; /* Yashil rangli hover effekt */
+  }
+  
+  /* Contact Section */
+  .contactSection {
+    background-color: #859373;
+    padding: 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .contactSection h2 {
+    color: #000000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Block */
+  .contactBlock {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .contactItem {
+    background-color: #315141;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contactItem h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .contactItem p {
+    font-size: 1rem;
+  }
+  
+  .contactLink {
+    color: #2ecc71;
+    text-decoration: none;
+  }
+  
+  .contactLink:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #6b6363;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 7px;
+  }
+  
+  .socialLinks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .socialLinks a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .contactBlock {
+      grid-template-columns: 1fr;
+    }
+  
+    .contactItem {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contactItem h3 {
+      font-size: 1rem;
+    }
+  
+    .contactItem p {
+      font-size: 0.9rem;
+    }
+  
+    .footer p {
+      font-size: 1rem;
+    }
+  }
+  
