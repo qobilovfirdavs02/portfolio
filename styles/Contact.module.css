@@ -203,3 +203,6 @@
       font-size: 0.9rem;
   }
 }
+.socialLinks {
+  gap: 5px; 
+}
