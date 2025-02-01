@@ -5,19 +5,19 @@ export default function Home() {
     <div className={styles.container}>
       {/* Header Section */}
       <header className={styles.header}>
-        <h1>My Portfolio</h1>
+        <h1>Мое портфолио</h1>
         <nav>
           <ul className={styles.navList}>
-            <li className={styles.navItem}><a href="about" className={styles.navLink}>About</a></li>
-            <li className={styles.navItem}><a href="contact" className={styles.navLink}>Contact</a></li>
+            <li className={styles.navItem}><a href="about" className={styles.navLink}>Обо мне</a></li>
+            <li className={styles.navItem}><a href="contact" className={styles.navLink}>Контакты</a></li>
           </ul>
         </nav>
       </header>
 
       {/* About Section */}
       <section id="about" className={styles.aboutSection}>
-        <h2>About Me</h2>
-        <p>Hello, my name is Firdavs, I am a Junior Programmer, I am glad you are following me.</p>
+        <h2>Обо мне</h2>
+        <p>Здравствуйте, меня зовут Фирдавс, я младший программист, я рад, что вы следите за мной.</p>
       </section>
 
       {/* Image Section */}
@@ -115,7 +115,7 @@ export default function Home() {
           <a href="https://t.me/firdavs2002" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/ios/452/telegram-app.png" alt="Telegram" />
           </a>
-          <p className={styles.copyright}>© All right reserved! Qobilov F.K</p>
+          <p className={styles.copyright}>© Все права защищены! Qobilov F.K</p>
         </div>
       </footer>
     </div>

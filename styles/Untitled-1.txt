@@ -1,9 +1,0 @@
-<a href="https://instagram.com/qobilov.firdavs" target="_blank" rel="noopener noreferrer">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram" width="40" />
-          </a>
-          <a href="https://youtube.com/firdavsqobilov" target="_blank" rel="noopener noreferrer">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/YouTube_icon_%282013-2017%29.png/1024px-YouTube_icon_%282013-2017%29.png" alt="YouTube" width="40" />
-          </a>
-          <a href="https://t.me/firdavs2002" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/ios/452/telegram-app.png" alt="Telegram Logo" style={{ width: '20px', height: '20px', marginRight: '8px' }} />
-          </a>

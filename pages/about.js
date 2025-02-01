@@ -5,11 +5,11 @@ export default function About() {
     <div className={styles.container}>
       {/* Header */}
       <header className={styles.header}>
-        <h1>My Portfolio</h1>
+        <h1>Мое портфолио</h1>
         <nav>
           <ul className={styles.navList}>
-            <li className={styles.navItem}><a href="/" className={styles.navButton}>Home</a></li>
-            <li className={styles.navItem}><a href="contact" className={styles.navButton}>Contact</a></li>
+            <li className={styles.navItem}><a href="/" className={styles.navButton}>Главная</a></li>
+            <li className={styles.navItem}><a href="contact" className={styles.navButton}>Контакты</a></li>
           </ul>
         </nav>
       </header>
@@ -17,9 +17,9 @@ export default function About() {
       {/* About Me Section */}
       <section className={styles.aboutSection}>
         <div className={styles.aboutText}>
-          <h2>About Me</h2>
+          <h2>Обо Мне</h2>
           <p>
-          I am Firdav Qobilov, born on September 14, 2002 in Panjakent, Republic of Tajikistan. I graduated from high school in 2020 and entered Khujand State University this year to study Software Engineering. During my studies, my interest in programming grew and I chose the path of Web programming and graduated with honors. I am currently in Moscow and I am gaining experience in the buyer. I am a Senior Developer with 16 years of experience and I have worked on many projects. In addition, I know Docker and Linux server administration.
+          Меня зовут Фирдавc Кобилов, я родился 14 сентября 2002 года в Пенджикенте, Республика Таджикистан я еще не женат. Я окончил среднюю школу в 2020 году и поступил в Худжандский государственный университет в этом году на факультет программной инженерии. Во время учебы мой интерес к программированию возрос, и я выбрал путь веб-программирования и закончил его с отличием. В настоящее время я нахожусь в Москве и набираюсь опыта в закупщике. Я старший разработчик с 16-летним стажем и работал над многими проектами. Кроме того, я знаю администрирование Docker и Linux-серверов.
           </p>
         </div>
       </section>
@@ -28,15 +28,15 @@ export default function About() {
 
       {/* Interests and Goals Section */}
       <section className={styles.interestsSection}>
-        <h2>My Interests & Future Goals</h2>
+        <h2>Мои интересы и цели на будущее</h2>
         <p>
-        I am mainly interested in politics and swimming and playing football. In the future, I want to work as a senior programmer in a large company.
+        В основном меня интересуют политика, плавание и игра в футбол. В будущем хочу работать старшим программистом в крупной компании.
         </p>
       </section>
 
       {/* Footer */}
       <footer className={styles.footer}>
-        <p>Connect with me</p>
+        <p>Свяжитесь со мной</p>
         <div className={styles.socialLinks}>
           <a href="https://instagram.com/qobilov.firdavs" target="_blank" rel="noopener noreferrer">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram" />
@@ -47,7 +47,7 @@ export default function About() {
           <a href="https://t.me/firdavs2002" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/ios/452/telegram-app.png" alt="Telegram" />
           </a>
-          <p className={styles.copyright}>© All right reserved! Qobilov F.K</p>
+          <p className={styles.copyright}>© Все права защищены! Qobilov F.K</p>
         </div>
       </footer>
     </div>
