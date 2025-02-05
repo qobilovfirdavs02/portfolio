@@ -5,11 +5,13 @@
   margin: 0 auto;
   padding: 20px;
   min-height: 100vh;
-  background-color: #182848; /* Chuqur ko'k fon */
-  color: #fff;
+  background-color: #bec4d2; /* Chuqur ko'k fon */
+  color: #cea0dd;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  border: 2px solid royalblue;
+  border-radius: 10px;
 }
 
 /* Header */
@@ -19,7 +21,8 @@
   align-items: center;
   background-color: #3d4a24;
   padding: 15px 20px;
-  border-radius: 7px;
+  border-radius: 20px;
+  border: 2px solid red;
 }
 
 .header h1 {
@@ -38,12 +41,13 @@
 }
 
 .navButton {
-  color: #040600;
+  color: #000000;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: #1abc9c;
+  border: 1.5px solid yellow;
   transition: background 0.3s ease;
 }
 
@@ -79,6 +83,7 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
+  border: 1px solid yellow;
 }
 
 .contactItem:hover {
@@ -89,10 +94,12 @@
   font-size: 1.3rem;
   margin-bottom: 10px;
   color: #f0f0f0;
+  text-align: center;
 }
 
 .contactItem p {
   font-size: 1rem;
+  text-align: center;
 }
 
 .contactLink {
@@ -108,11 +115,12 @@
 
 /* Footer */
 .footer {
-  background-color: #333;
+  background-color: #3b3a3a;
   padding: 20px 0;
   text-align: center;
-  border-radius: 7px;
+  border-radius: 20px;
   color: white;
+  border: 1px solid #16fa01;
 }
 
 .socialLinks {
