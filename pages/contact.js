@@ -24,7 +24,7 @@ export default function Contact() {
           </div>
           <div className={styles.contactItem}>
             <h3>Телефон</h3>
-            <p><a href="tel:+998901234567" className={styles.contactLink}>+7 (936)299 88 65</a></p>
+            <p><a href="tel:+79362998865" className={styles.contactLink}>+7 (936)299 88 65</a></p>
           </div>
           <div className={styles.contactItem}>
             <h3>GitHub</h3>
