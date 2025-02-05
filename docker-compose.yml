@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: .  # Root papka (portfolio) da joylashgan
+      dockerfile: Dockerfile  # Dockerfile ni root papkadan ishlatamiz
+    ports:
+      - "3000:3000"  # 3000-portni ochish
+    networks:
+      - app-network
+    command: ["npm", "run", "dev"]  # Development rejimida ishga tushirish
+
+networks:
+  app-network:
+    driver: bridge
